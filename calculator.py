@@ -11,7 +11,11 @@ def calculator():
         
         # Check for option 6 or the word "quit"
         if choice == '6' or choice.lower() == 'quit': 
+<<<<<<< HEAD
             print("Goodbye! See you later") # Added your custom message here
+=======
+            print("Exiting! bye bye") # Added your custom message here
+>>>>>>> developer02
             break
             
         if choice in ('1', '2', '3', '4', '5'):
